@@ -1,0 +1,25 @@
+#d1 {
+    background-color: aqua;
+}
+
+hgroup > h2 {
+    background-color: cornsilk;
+}
+.detailDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.detailDiv > div {
+    width: 20%;
+}
+
+.detailDiv > p {
+    width: 80%;
+}
+
+.detailDiv img {
+    border-radius: 50%;
+}
