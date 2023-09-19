@@ -1,0 +1,55 @@
+thead > tr {
+    background-color: darkblue;
+    color: white;
+}
+
+th {
+    text-align: center;
+    color: white;
+}
+
+.inten0, .inten1, .inten2 {
+    display: inline-flex;
+    width: 40%; 
+    justify-content: center;
+    align-items: center;
+}
+
+.inten0 {
+    color: green;
+    font-size: 2em;
+}
+.inten1 {
+    color: red;
+    font-size: 1em;
+}
+.inten2 {
+    color: blue;
+    font-size: 1em;
+}
+.numtd {
+    display: inline-flex;
+    width: 100%;
+    justify-content: right;
+    align-items: left;
+}
+
+.title {
+    display: inline-flex;
+    width: 10%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+
+.con {
+    display: inline-flex;
+    width: 20%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: blue;
+}
